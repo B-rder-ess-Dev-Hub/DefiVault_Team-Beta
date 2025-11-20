@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../src/SimpleToken.sol";
-import "../src/TokenVault.sol";
+import "@contract/SimpleToken.sol";
+import "@contract/TokenVault.sol";
 
 /// @notice MiniDeFi test 
 contract MiniDeFiTest is Test {
